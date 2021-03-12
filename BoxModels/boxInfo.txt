@@ -1,0 +1,22 @@
+flexBox:
+1. Create container.
+2. display: flex;(or whatever type of box you want)
+   - display: flex; must be in every new container.
+3. add inner container hight and width
+4. add align-items:(wherever you want);
+   -- or --
+   add justify-content:(wherever you want);
+5. align-items/justify-content: 
+   space-between/space-around/space-evenly (if needed)
+
+
+- style="align-items:center 
+    - aligns from top to bottom
+
+- style='justify-content: center
+    - centers from left to right
+
+- style="justify-content: space-evenly
+    - adds an eqeal space between each box.
+
+

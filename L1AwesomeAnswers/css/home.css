@@ -1,0 +1,64 @@
+@import url('reset.css');
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body {
+    min-width: 720px;
+}
+.navbar {
+    display: flex;
+    background-color: gray;
+    border: thin solid cornsilk;
+    flex-direction: row;
+    height: 14vh;
+    justify-content: flex-end;
+    align-items: center;
+
+}
+.inner-navbar-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* align-content: center; */
+    width: 90vw;
+}
+.navbar-container>div {
+    font-size: 50vh;
+    align-items: center;
+}
+.question-img {
+    /* align-content: flex-start; */
+    /* order: -1; */
+    width: 10vw;
+    height: 10vh;
+    /* align-items: center; */
+    text-align: center;
+}
+.main-container {
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    height: 86vh;
+    background-color: lightcoral;
+}
+.main-container>div {
+    width: 40%;
+    /* height: 40%; */
+    /* font-size: 5vh; */
+}
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    background-color: lightcoral;
+}
+.quote1 {
+    font-size: 4em;
+}
+.quote2 {
+    color: lightgoldenrodyellow;
+    font-size: 2em;
+}

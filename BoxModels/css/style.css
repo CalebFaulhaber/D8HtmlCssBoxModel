@@ -1,0 +1,62 @@
+
+.container {
+    display: flex;
+    background-color: azure;
+    border: thin solid teal;
+    border-radius: 5px;
+    min-height: 5;
+}
+.box {
+    width: 320px;
+    min-height: 320px;
+    background-color: violet;
+    border: 5px solid gray;
+    border-radius: 5px;
+}
+
+/* ---------Below is from naveed--------- */
+
+body {
+    margin: 1rem;
+    padding: 0 0 100vh 0;
+    color: teal;
+    font-family: Helvetica;
+    font-weight: 100;
+  }
+  
+  hr {
+    border: none;
+    border-top: 2px solid teal;
+  }
+  
+  h1, h2, h3 {
+    font-weight: 100;
+  }
+/* ------Below is Naveeds flexbox------- */
+
+
+.flex-me{
+    display: flex;
+    background-color: azure;
+    border: thin solid teal;
+    border-radius: 5px;
+    min-height: 150px;
+}
+.flex-me>div{
+    width: 75px;
+    min-height: 75px;
+    background-color: teal;
+    border-radius: 5px;
+}
+.flex-me>div:nth-child(2n){
+    background-color: firebrick;
+    min-height: 100px;
+}
+.flex-me.flex-wrap-demo{
+    width: 50%;
+    min-height: 300px;
+}
+.flex-me.align-content-demo{
+    width: 50%;
+    min-height: 300px;
+}
