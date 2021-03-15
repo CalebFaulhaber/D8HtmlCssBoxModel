@@ -11,54 +11,79 @@ body {
 }
 .navbar {
     display: flex;
-    background-color: gray;
-    border: thin solid cornsilk;
-    flex-direction: row;
+    background-color: #f0f8ff;
+    /* flex-direction: row; */
     height: 14vh;
-    justify-content: flex-end;
+    min-height: 67px;
+    justify-content: center;
     align-items: center;
+    min-width: 720px;
 
 }
 .inner-navbar-container {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    /* align-content: center; */
     width: 90vw;
+    min-width: 648px;
 }
-.navbar-container>div {
-    font-size: 50vh;
+.inner-navbar-container>div {
+    /* display: flex; */
+    /* justify-content: flex-start; */
+    font-size: 1.5em;
     align-items: center;
 }
 .question-img {
-    /* align-content: flex-start; */
-    /* order: -1; */
-    width: 10vw;
-    height: 10vh;
-    /* align-items: center; */
+    /* width: 5%; */
+    min-width: 72px;
+    height: 70%;
     text-align: center;
 }
 .main-container {
     display: flex;
     justify-content:space-around;
     align-items: center;
-    height: 86vh;
-    background-color: lightcoral;
+    height: 82vh;
+    min-height: 394px;
+    background-color: #ffd6c1;
 }
 .main-container>div {
     width: 40%;
-    /* height: 40%; */
-    /* font-size: 5vh; */
 }
 .footer-container {
     display: flex;
     justify-content: space-around;
-    background-color: lightcoral;
+    align-items: flex-start;
+    background-color: #ffd6c1;
+    height: 4vh;
+    min-height: 19px;
 }
 .quote1 {
-    font-size: 4em;
+    font-size: 4.4em;
+    font-weight: bolder;
+}
+.quote2-container {
+    display: flex;
+    flex-flow: column;
+    
 }
 .quote2 {
-    color: lightgoldenrodyellow;
-    font-size: 2em;
+    color: #ffa500;
+    font-size: 1.8em;
+    font-weight: bold;
+}
+.quote-states {
+    display: flex;
+    justify-content: space-around;
+    font-size: 0.5em;
+    padding-top: 1.5em;
+    font-weight: bold;
+}
+a {
+    color: black;
+    text-decoration: none;
+}
+a:hover {
+    font-size: 1.1em;
+    font-weight: bolder; 
 }
