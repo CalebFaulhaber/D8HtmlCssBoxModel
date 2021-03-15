@@ -7,6 +7,8 @@ html {
     box-sizing: inherit;
 }
 
+
+
 body {
     min-width: 720px;
 }
@@ -14,11 +16,9 @@ body {
 .navbar {
     display: flex;
     height: 67px;
-    /* min-height: 67px; */
     min-width: 720px;
     background-color: #f0f8ff;
     align-items: center;
-
 }
 .question-img {
     height: 70%;
@@ -35,40 +35,53 @@ body {
 
 .main-container {
     display: flex;
-    flex-flow: wrap;
-    justify-content: space-evenly;
+    flex-flow: column;
+    /* justify-content: space-evenly; */
     /* justify-items: flex-start; */
+    padding-top: 20px;
+    padding-left: 20px;
     background-color: #ffd6c1;
     min-width: 690px;
-    min-height: 87vh;
+    height: 81.7vh;
 }
-.quote-container {
+.new-question {
+    font-size: 2em;
+    font-weight: bolder;
+    padding-bottom: 10px;
+}
+.title-container {
     display: flex;
-    display: table-column;
-    
-    width: 224px;
-    height: 244px;
+    padding-bottom: 10px;
+    padding-left: 10px;
 }
-.quote {
+.body-container {
     display: flex;
-    font-size: 01.1em;
-    font-weight: bolder;
-    height: 200px;
-    /* text-transform: uppercase; */
-    align-items: center;
+    padding-bottom: 20px;
+    padding-left: 10px;
 }
-.created {
-    font-weight: bolder;
-    font-size: 0.5em;
-    height: 14px;
+.title {
+    width: 100px;
 }
-.viewed {
-    font-weight: bolder;
-    font-size: 0.5em;
-    height: 14px;
+.body {
+    width: 100px;
+}
+.body-box {
+    /* rows and columns: for text box ("textarea" tag) are inline style */
+}
+button {
+    background-color: black;
+    color: white;
+    width: 150px;
+    height: 40px;
+    border-radius: 5px;
 }
 
-
+textarea {
+    font-size: 15px;
+}
+.title-box {
+    font-size: 15px;
+}
 
 footer {
     display: flex;
