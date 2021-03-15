@@ -36,8 +36,6 @@ body {
 .main-container {
     display: flex;
     flex-flow: column;
-    /* justify-content: space-evenly; */
-    /* justify-items: flex-start; */
     padding-top: 20px;
     padding-left: 20px;
     background-color: #ffd6c1;
